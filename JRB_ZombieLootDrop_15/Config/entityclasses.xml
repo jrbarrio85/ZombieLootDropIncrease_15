@@ -1,0 +1,9 @@
+<ZombieLootDrop>
+
+<!-- Changes loot drops from .02 range to .15 -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.15</set>
+	
+<!-- Adds more TimeStayAfterDeath to EntityLoot (from 5 min to 15 min) -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
+	
+</ZombieLootDrop>
